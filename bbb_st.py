@@ -197,7 +197,7 @@ with col2:
 if button:
     st.session_state.nn = nn
 col3, col4 = st.columns(2)
-if 'nn' in st.session_state and st.session_state.nn > 1:
+if st.session_state.nn > 1:
     n = st.session_state.nn
     with col3:
         st.pyplot(C1lexi(n))
