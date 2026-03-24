@@ -186,7 +186,7 @@ def Lm(n):
 if 'nn' not in st.session_state: # Session State is a way to share variables between reruns, for each user session.
     st.session_state['nn'] = 0
 
-st.title("Hi :D")
+st.title("$A_{n}$ 😋")
 container = st.container()
 col1, col2 = container.columns([0.75, 0.25])
 with col1:
